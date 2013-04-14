@@ -19,8 +19,7 @@ body {
 	padding:0;
 	background-color:#cbc3a5;
 	color:#333;
-	/*font-family:Georgia;*/
-	font-family:Arial;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 #container {
@@ -32,57 +31,53 @@ body {
 }
 
 #wrapper {
- border:8px solid #fbf7e5;
+ 	border:8px solid #fbf7e5;
 	margin:5px 0;
 	overflow:hidden;
-
-}	
+}
+	
 #banner {
 	color:#FFF;
-	
-	
-	
 	background-color:#333;
 	margin:0;
-	font-family: Georgia;
+	font-family:Georgia;
 	padding:10px 15px;
-	
 }
+
 h1 {
 	margin:0;
 	padding: 0;
 	font-size:36px;
 	font-weight: normal;
 	text-shadow:0px 0px 10px #111;
-	
 }
+
 #banner p {
 	margin:0;
 	text-transform: uppercase;
 	font-size:14px;
 	text-shadow:0px 0px 10px #111;
 }
+
 #nav {
    overflow:hidden;
-
-   width:960px;
-   
+   width:960px;   
 }
-#nav ul {
-  
+
+#nav ul { 
    list-style:none;
    margin:0;
    padding:0;
- 
 }
+
 #nav ul li {
    display:block;
    float:left;
    list-style:none;
    margin:0;
-   padding:0;
-  
+   padding:0; 
 }
+
 #nav ul li a {
    display:block;
    margin:0 0 0 1px;
@@ -90,24 +85,20 @@ h1 {
    color:#333;
    text-decoration:none;
    line-height:36px;
-   font-size: 18px;
-   
+   font-size: 18px;  
 }
+
 #nav ul li a:hover {
    color:#FFF;
 }
+
 #page {
 	background-color:#eae4d0;
 	overflow:auto;
 	padding:15px 0;
 	clear: both;
-	/*
-	-moz-border-radius-bottomleft:10px;
-	-webkit-border-bottom-left-radius:10px;
-	-moz-border-radius-bottomright:10px;
-	-webkit-border-bottom-right-radius:10px;
-	*/
 }
+
 #sidebar {
 	min-width:210px;
 	margin:0 15px;
@@ -120,11 +111,13 @@ h1 {
 #sidebar h3, #sidebar p {
 	padding:0 10px;
 }
+
 #content {
 	margin-left:15px;
 	margin-right:15px;
 	line-height:160%;
 }
+
 #footer {
 	padding:15px;	
 	overflow:auto;
@@ -132,6 +125,7 @@ h1 {
 	font-size:90%;
 	text-align:right;
 }
+
 #footer img {
 	float:left; 
 	margin-right:15px;
