@@ -18,5 +18,5 @@ function navigation(){
 }
 
 function footer(){
-	document.write('<img border="0" alt="Welcome to Zhifei\'s Homepage" src="http://www.easycounter.com/counter.php?feifeitj">Copyright &copy; 2011-2013 Zhifei ZHANG. Last updated on 2013-7-24.');
+	document.write('<img border="0" alt="Welcome to Zhifei\'s Homepage" src="http://www.easycounter.com/counter.php?feifeitj">Copyright &copy; 2011-2013 Zhifei ZHANG. Last updated on 2013-11-20.');
 }
