@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Welcome to Zhifei Zhang's Homepage</title>
+<link href="style.css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="fun.js"></script>
+</head>
+
+<body>
+<div id="container">
+    <div id="wrapper">
+    <div id="banner">
+		<!--<a href="http://www.tongji.edu.cn/" target=_blank><img src="images/tongjilogo.png" alt="" width="64" height="64" class="imgr"/></a>-->
+		<a href="http://www.tongji.edu.cn/" target=_blank><img src="images/tongjilogo.jpg" alt="" width="230" height="56" class="imgr"/></a>
+    	<h1>Zhifei ZHANG</h1>
+    	<!--<p><a href="http://cs.tongji.edu.cn/" target=_blank><font color="#FFFFFF">Department of Computer Science and Technology</font></a>, <a href="http://www.tongji.edu.cn/" target=_blank><font color="#FFFFFF">Tongji University</font></a></p>-->
+		<p><a href="http://cs.tongji.edu.cn/" target=_blank><font color="#FFFFFF">Department of Computer Science and Technology</font></a></p>
+    </div>
+    <div id="nav">
+    	<script type="text/javascript">navigation();</script>
+    </div>
+    <div id="page">
+		
+        <div id="content">   
+        	<h3>Selected Publications (<a href="publication.html" target="_blank">Full List</a>)</h3>
+			<ul>
+				<li>[1] <strong>Z.F. Zhang</strong>, D.Q. Miao, Z.H. Wei and L. Wang, "Document-level Sentiment Classification Based on Behavior-Knowledge Space Method", in Proceedings of the 8th International Conference on Advanced Data Mining and Applications (ADMA'12), Nanjing, China, Dec. 15-18, 2012, LNAI 7713, pp. 330-339.</li>
+				<li>[2] D.Q. Miao, <strong>Z.F. Zhang</strong>, Z.H. Wei and C.Y. Wang, "DW-ML-kNN: A Dual Weighted Multi-label kNN Algorithm", in Proceedings of the 8th Conference on Natural Language Processing and Knowledge Engineering (NLP-KE'12), Hefei, China, Sep. 20-24, 2012, pp. 519-529.</li>
+				<li>[3] <strong>Z.F. Zhang</strong>, D.Q. Miao and X.D. Yue, "Similarity Measure for Short Texts Using Topic Models and Rough Sets", Journal of Computational Information Systems, 2013, 9(16): 6603-6611.</li>
+				<li>[4] <strong>Z.F. Zhang</strong>, D.Q. Miao and C. Gao, &quot;Short Text Classification Using Latent Dirichlet Allocation&quot;, Journal of Computer Applications, 2013, 33(6): 1587-1590. (in Chinese)</li>
+				<li>[5] <strong>Z.F. Zhang</strong> and D.Q. Miao, "Feature Selection for Text Categorization Based on Rough Set", CAAI Transactions on Intelligent Systems, 2009, 4(5): 453-457. (in Chinese)</li>
+				<li>[6] Z.H. Wei, H.Y. Zhang, <strong>Z.F. Zhang</strong>, W. Li and D.Q. Miao, "A Naive Bayesian Multi-label Classification Algorithm with Application to Visualize Text Search Results", International Journal of Advanced Intelligence, 2011, 3(2): 173-188.</li>
+				<li>[7] Y.F. Chen, D.Q. Miao, W. Li and <strong>Z.F. Zhang</strong>, "Semantic Orientation Computing Based on Concepts", CAAI Transactions on Intelligent Systems, 2011, 6(6): 489-494. (in Chinese)</li>
+				<li>[8] D.Q. Miao, C. Gao, N. Zhang and <strong>Z.F. Zhang</strong>, "Diverse Reduct Subspaces Based Co-Training for Partially Labeled Data", International Journal of Approximate Reasoning, 2011, 52(8): 1103-1117.</li>
+			</ul>
+			
+			<h3>Research Experiences</h3>
+			<p><img src="projects/present.png" alt="" width="140" height="120" class="imgl"/><strong><em>05/2012-present</em></strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Multi-granularity Topic-Sentiment Mixture Model on Social Media Texts</strong>&nbsp;&nbsp;&nbsp;&nbsp;I host this project supported by the Fundamental Research Funds for the Central Universities. Social media texts contain colorful opinions and cover many topics. An object can be represented by hierarchical attributes. The project aims to discover rich sentiment information about one object within the social media. Due to the short length of social media texts, we apply latent Dirichlet allocation (<a href="projects/lda-by-Zhifei.ppt" target="_blank">slides</a>) in topic extraction and similarity measure. [3][4] <br>
+			  <br></p>
+			<p><img src="projects/COAE13.png" alt="" width="140" height="120" class="imgl"/><strong><em>05/2013-06/2013</em></strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Chinese Opinion Analysis Evaluation 2013</strong>&nbsp;&nbsp;&nbsp;&nbsp;We focus on Task 1, namely sentiment classification of Chinese negative sentences. Firstly, we construct four word lists, i.e., sentiment word list, negative word list, degree word list and conjunction list. Secondly, the first three lists are used to compute the sentiment value of a context-free word in each sub-sentence. If the word is “HAO", a rule-based method is utilized to compute its sentiment value. Besides, if the word is context-dependent, the sentiment value is obtained by using Bayes theorem on antonym pairs. Finally, the polarity of a sentence is determined by the sentiment values of all its sub-sentences and the conjunction list. Our system achieves good performance and ranks fourth among thirteen evaluation systems.<br></p>
+			<p><img src="projects/NLPCC12.png" alt="" width="140" height="120" class="imgl"/><strong><em>06/2012-08/2012</em></strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>NLP&amp;CC 2012 Weibo Sentiment Analysis Evaluation</strong>&nbsp;&nbsp;&nbsp;&nbsp;We accomplish a sentiment analysis system with 70.4% precision, 56.2% recall and 62.5% F1 in opinion detection task; 69.1% precision, 38.9% recall and 49.8% F1 in polarity classification task. We fuse many public sentiment dictionaries, <a href="resource.html" target="_blank">one</a> of which is collected by myself. We adopt lexicon-based methods for subjectivity identification. We use three elements, i.e., opinion words, negative words and punctuation marks, for sentiment classification.<br><br></p>
+			<p><img src="projects/SAHR.png" alt="" width="140" height="120" class="imgl"/><strong><em>12/2010-06/2011</em></strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Opinion Mining for Hotel Reviews</strong>&nbsp;&nbsp;&nbsp;&nbsp;We implement a crawler to fetch user reviews about hotels from ctrip.com and construct a hotel review <a href="resource.html" target="_blank">dataset</a>. We measure semantic orientation based on concepts using HowNet, which outperforms the word-based method. We establish several supervised and unsupervised algorithms for sentiment classification. We propose an ensemble method based on behavior-knowledge-space and achieve good results. Besides, we develop a visualization system that illustrates opinions of 56 hotels in Shanghai with the help of Google Map. [1][7]<br>
+			  <br></p>
+			<p><img src="projects/MLWC.jpg" alt="" width="140" height="120" class="imgl"/><strong><em>11/2009-07/2010</em></strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Multi-label Classification for Web Search Results</strong>&nbsp;&nbsp;&nbsp;&nbsp;We build a visualization system for web search results based on multi-label classification. For lack of Chinese multi-label corpora, we construct <a href="resource.html" target="_blank">one</a> from SogouC corpus manually. We propose a Multi-Label Naive Bayesian (MLNB) classification algorithm and implement a prototype system named TJ-MLWC. The system acts as an intermediate layer between users and an Internet search engine, which allows the search results of a query displaying by one or more categories. We conduct further research on multi-label learning and propose a Dual-Weighted Multi-Label KNN (DW-ML-KNN) algorithm. The algorithm achieves a satisfying performance especially when dealing unbalanced data. [2][6]</p>
+			<p><img src="projects/CTC.png" alt="" width="140" height="120" class="imgl"/><strong><em>03/2008-09/2008</em></strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Chinese Text Classification System</strong>&nbsp;&nbsp;&nbsp;&nbsp;We build a system for Chinese text classification. The system includes five functional modules: preprocessing (including word segmentation implemented by ICTCLAS), feature selection, text representation using VSM, classifiers (KNN, SVM implemented by LibSVM) and performance evaluation. We focus on feature selection algorithms and propose a new feature selection algorithm based on rough set theory, named IQR (Improved Quick Reduction). IQR achieves better performance than CHI. [5] [<a href="projects/CTC_EXE.zip">EXE</a>] [<a href="projects/CTC_Demo.avi">DEMO</a>]</p>
+			
+			<h3>Small Tools</h3>
+			<ul>
+				<li><strong><a href="projects/PyICTCLAS.zip">PyICTCLAS</a></strong>&nbsp;&nbsp;&nbsp;&nbsp;A python interface to ICTCLAS, implemented by a foreign function library (i.e., ctypes) which provides C compatible data types and calls functions in ICTCLAS30.dll. <img src="images/new.gif" alt="" width="28" height="11"/></li> 
+				<li><strong><a href="projects/GibbsLDA.zip">GibbsLDA</a></strong>&nbsp;&nbsp;&nbsp;&nbsp;A GUI tool for GibbsLDA++, a C/C++ implementation of latent Dirichlet allocation(LDA) using gibbs sampling technique for parameter estimation and inference.</li>
+				<li><strong><a href="projects/WordSplit.zip">WordSplit</a></strong>&nbsp;&nbsp;&nbsp;&nbsp;A GUI tool for Chinese word segmentation and part-of-speech tagging, which calls the interfaces supported by ICTCLAS (Packet: ICTCLAS_OpenSrc_C_windows).</li>
+			</ul>
+        </div>
+	</div>
+    </div>
+    <div id="footer">
+		<script type="text/javascript">footer();</script>
+    </div>
+</div>
+</body>
+</html>
